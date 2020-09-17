@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="sr">
+
+<head>
+	<title>Leadjoy-Contact</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<meta name="keywords" content="" />
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<!-- 导航样式 -->
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+
+
+
+	<!-- 联系我们 -->
+	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+	<!-- 基础样式 -->
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+
+	<!-- 动画 -->
+	<link rel="stylesheet" href="assets/css/animate.css">
+
+	<!-- 橙色滚动条 -->
+	<link rel="stylesheet" href="assets2/css/main.css">
+	<!-- 图标 -->
+	<link href="css/font-awesome.css" rel="stylesheet">
+	<!-- 导航栏 -->
+	<link rel="stylesheet" href="static/css/main.css" type="text/css" media="all">
+	<style>
+		.demo {
+			animation: Updown 1s infinite alternate;
+			animation-iteration-count: 6.3
+		}
+
+		@keyframes Updown {
+			from {
+				margin-top: 15px;
+
+			}
+
+			to {
+				margin-top: -10px;
+			}
+		}
+	</style>
+	<!-- 地图 -->
+	<style type="text/css">
+		html,
+		body {
+			margin: 0;
+			padding: 0;
+		}
+
+		.iw_poi_title {
+			color: #CC5522;
+			font-size: 14px;
+			font-weight: bold;
+			overflow: hidden;
+			padding-right: 13px;
+			white-space: nowrap
+		}
+
+		.iw_poi_content {
+			font: 12px arial, sans-serif;
+			overflow: visible;
+			padding-top: 4px;
+			white-space: -moz-pre-wrap;
+			word-wrap: break-word
+		}
+	</style>
+	<script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+</head>
+
+
+<body class="hide-header slow-header " style="display: none;">
+	<!-- loading -->
+	<div class="vert-loader show active">
+		<div class="vert-loader-bar bar-0"></div>
+		<div class="vert-loader-bar bar-1"></div>
+		<div class="vert-loader-bar bar-2"></div>
+		<div class="vert-loader-bar bar-3"></div>
+		<div class="vert-loader-bar bar-4"></div>
+		<div class="vert-loader-bar bar-5"></div>
+	</div>
+	<header class="site-header" id="masthead">
+		<div class="container">
+			<div class="site-branding">
+	
+	
+				<a href="index-en.html" class="navbar-brand"><img class="demo" style="min-width: 150px;"
+						src="img/logo/汇火文化-en.png" width="40" alt="" /></a>
+	
+	
+	
+			</div>
+	
+	
+	
+			<div class="nav-wrapper" id="navsidebar">
+				<nav class="main-navigation" data-nav-headline="Meni" id="site-navigation">
+					<ul class="clear" id="primary-nav">
+						<li>
+							<span class="nav-link-wrap">
+								<a data-href-title="Home" data-hover-text="Home" href="index-en.html">
+									<span>Home</span>
+								</a>
+							</span>
+						</li>
+						<li>
+							<span class="nav-link-wrap">
+								<a data-href-title="About Us" data-hover-text="About Us" href="about-en.html">
+									<span>About Us</span>
+								</a>
+							</span>
+			
+						</li>
+						<li>
+							<span class="nav-link-wrap">
+								<a data-href-title="IP" data-hover-text="IP" href="ip-en.html">
+									<span>IP</span>
+								</a>
+							</span>
+						</li>
+						<li>
+							<span class="nav-link-wrap">
+								<a data-href-title="Video Distribution" data-hover-text="Video Distribution" href="vedio-en.html">
+									<span>Video Distribution</span>
+								</a>
+							</span>
+						</li>
+						<li>
+							<span class="nav-link-wrap">
+								<a data-href-title="ContactUs" data-hover-text="ContactUs" href="contact-en.html">
+									<span  style="color: #FF7814;">Contact Us</span>
+								</a>
+							</span>
+						</li>
+					</ul>
+				</nav><!-- main-navigation -->
+				<ul class="header-icons" id="header-icons">
+					<li class="header-icon-wrap">
+						<span class="header-icon lang-info"><span>EN</span></span>
+						<div class="hi-wrapper clear">
+							<div class="hi-content" style="width: auto">
+								<span class="hi-title"><span class="hi-title-wrapper"><span
+											class="hi-title-inner-wrapper">Language:</span></span></span>
+								<ul class="hi-details hi-lang">
+									<li><a href="contact.html">CN </a></li>
+									<li><a href="contact-en.html">EN</a></li>
+								</ul>
+							</div>
+						</div>
+					</li>
+				</ul><!-- header-icons -->
+			</div>
+		</div>
+	</header>
+	<div class="nav-button-wrapper">
+		<a class="nav-button" href="javascript:;" id="nav-btn">
+			<div class="menu-btn show">
+				<span></span>
+			</div>
+		</a>
+	</div>
+	<!-- #masthead -->
+	<!-- 轮播图 -->
+	<div class="outer-wrapper">
+		<div class="banner-slider">
+			<div class="slider">
+				<div class="callbacks_container">
+					<ul class="rslides callbacks callbacks1" id="slider4">
+						<li>
+							<div class="jarallax agileits-banner-info agileits-banner-info5 text-center">
+
+								<p style="font-size: 4em;">Contact Us</p>
+
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- //banner-slider -->
+	</div>
+	<!-- //banner -->
+
+
+
+	<div class="outer-wrapper">
+		<section class="project--area pt-20 pb-80">
+			<div class="about-info mt-lg-5 mt-md-4 mt-4  wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s"
+				data-wow-offset="0">
+				<div class="container">
+					<div class="a-grid">
+						<div class="col-md-7 agileits-a-about-right">
+
+							<form action="#" method="post">
+								<div class="form-group">
+									<label class="my-2">Name</label>
+									<input class="form-control" type="text" name="Name" placeholder="" required="">
+								</div>
+								<div class="form-group">
+									<label>Email</label>
+									<input class="form-control" type="email" name="Email" placeholder="" required="">
+								</div>
+								<div class="form-group">
+									<label>Subject</label>
+									<input class="form-control" type="zhuti" name="zhuti" placeholder="" required="">
+								</div>
+								<div class="form-group">
+									<label>Message</label>
+									<textarea class="form-control" id="textarea" placeholder=""></textarea>
+								</div>
+								<div class="input-group" style="width: 30%;">
+									<input class="form-control" type="submit" value="Submit">
+								</div>
+							</form>
+
+						</div>
+						<div class="col-md-1 agileits-a-about-right">
+
+						</div>
+						<div class="col-md-4 agileits-a-about-right">
+							<p>Contact：18217368670
+								<span>Email:<a style="color: #FF7814;" href="mailto:example@email.com"> info@leadjoy.net</a></span>
+							</p>
+							<div style="height: 20px;"></div>
+							<!-- 地图接口 -->
+							<div style="width:150;height:350px;border:#ccc solid 1px;" id="dituContent"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+	<!-- 页脚 -->
+		<div class="footer">
+			<div class="footer-top">
+				<div class="container">
+					<div class="footer-grids">
+						<div class="col-md-4 footer-grid">
+							<div class="footer-logo">
+								<h4 class="wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.2s" data-wow-offset="0">
+									<a href="index-en.html">LEADJOY</a></h4>
+								<!-- <p>抵制不良游戏 拒绝盗版游戏</p>
+								<p>注意自我保护 谨防受骗上当</p>
+								<p>适度游戏益脑 沉迷游戏伤身</p>
+								<p>合理安排时间 享受健康生活</p> -->
+							</div>
+						</div>
+						<div class="col-md-4 footer-grid">
+							<h3>Links</h3>
+							<ul>
+								<li> <a href="about-en.html">About</a> </li>
+								<li> <a href="contact-en.html">Contact</a> </li>
+								<li> <a href="falvshengming-en.html">Legal</a> </li>
+								<li> <a href="yinsixieyi-en.html">Privacy</a> </li>
+								<li> <a href="http://www.arbookplusapp.com">LeadjoyKids</a> </li>
+							</ul>
+						</div>
+						<div class="col-md-4 footer-list wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s"
+							data-wow-offset="0">
+							<ul>
+								<li class="wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.2s" data-wow-offset="0"><i
+										class="fa fa-arrow-right" aria-hidden="true"></i>Permit for Cyber Culture Business Operations No.:沪网文（2016）1314-001号
+								</li>
+								<li class="wow fadeInUp" data-wow-duration="3s" data-wow-delay="0.2s" data-wow-offset="0"><i
+										class="fa fa-arrow-right" aria-hidden="true"></i> ICP License Number:沪ICP备15004355号-2</li>
+	
+								<li class="wow fadeInUp" data-wow-duration="4s" data-wow-delay="0.2s" data-wow-offset="0">
+									<span><i class="fa fa-twitter" aria-hidden="true"></i> Address：Room 405,Building 1, Gonghexin Road 1481, Jingan District, Shanghai, China</span>
+								</li>
+								<li class="wow fadeInUp" data-wow-duration="5s" data-wow-delay="0.2s" data-wow-offset="0">
+									<span><i class="fa fa-twitter" aria-hidden="true"></i> Contact：18217368670</span></li>
+							</ul>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- //footer -->
+		<!-- copyright -->
+		<div class="copyright">
+			<div class="container">
+				<p>Copyright &copy; 2015.Shanghai Leadjoy Culture Communication Co., Ltd.</p>
+			</div>
+		</div>
+	<!-- 轮播图 -->
+	<script src="js/responsiveslides.min.js"></script>
+	<script>
+		// You can also use "$(window).load(function() {"
+		$(function () {
+			// Slideshow 4
+			$("#slider4").responsiveSlides({
+				auto: true,
+				pager: true,
+				nav: false,
+				speed: 500,
+				namespace: "callbacks",
+				before: function () {
+					$('.events').append("<li>before event fired.</li>");
+				},
+				after: function () {
+					$('.events').append("<li>after event fired.</li>");
+				}
+			});
+
+		});
+	</script>
+	<script src="js/jarallax.js"></script>
+	<script type="text/javascript">
+		/* init Jarallax */
+		$('.jarallax').jarallax({
+			speed: 0.5,
+			imgWidth: 1366,
+			imgHeight: 768
+		})
+	</script>
+	<!-- 我们的新闻 -->
+	<script src="assets2/js/vendor/slick.min.js" type="34d1190f22fac1f6e0a94cbf-text/javascript"></script>
+	<script src="assets2/js/vendor/jquery.smoothscroll.min.js" type="34d1190f22fac1f6e0a94cbf-text/javascript"></script>
+	<script src="assets2/js/vendor/jquery.nice-select.min.js" type="34d1190f22fac1f6e0a94cbf-text/javascript"></script>
+	<script src="assets2/js/main.js" type="34d1190f22fac1f6e0a94cbf-text/javascript"></script>
+	<script src="assets2/js/rocket-loader.min.js" data-cf-settings="34d1190f22fac1f6e0a94cbf-|49" defer=""></script>
+	<script src="js/magnific-popup/jquery.magnific-popup.min.js"></script>
+	<script src="js/plugins/waypoints.min.js"></script>
+	<script src="js/plugins/wow.min.js"></script>
+
+
+	<!-- 动画效果 -->
+	<script src="js/plugins/parallax.min.js"></script>
+	<script src="js/scripts.js"></script>
+
+
+
+	<script>
+		var buttonAllow = document.querySelector('.cookie-law-button-accept');
+		var buttonDecline = document.querySelector('.cookie-law-button-decline');
+
+		function removeScript() {
+			document.querySelector('.cookie-law').parentNode.removeChild(document.querySelector('.cookie-law'));
+		}
+
+		function ses(data) {
+			$.ajax({
+				url: '../site-parts/session-cookies.php',
+				type: 'POST',
+				datatype: 'json',
+				data: data,
+				success: function (data) {
+					console.log(data);
+					if (parseInt(data) === 0) {
+						// return and do nothing
+						document.querySelector('.cookie-law').classList.remove('is-visible');
+						return false;
+					} else if (parseInt(data) === 1) {
+						// return and load script for google analytics
+						document.querySelector('.cookie-law').classList.remove('is-visible');
+
+						(function (i, s, o, g, r, a, m) {
+							i['GoogleAnalyticsObject'] = r;
+							i[r] = i[r] || function () {
+								(i[r].q = i[r].q || []).push(arguments)
+							}, i[r].l = 1 * new Date();
+							a = s.createElement(o),
+								m = s.getElementsByTagName(o)[0];
+							a.async = 1;
+							a.src = g;
+							m.parentNode.insertBefore(a, m)
+						})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+						ga('create', 'UA-8128067-1', 'auto');
+						ga('set', 'anonymizeIp', true);
+						ga('send', 'pageview');
+					} else {
+						// return the coockie policy popup and do not load any script
+						if (localStorage.getItem("page")) {
+							document.querySelector('.cookie-law').classList.add('is-visible');
+						} else {
+							setTimeout(function () {
+								document.querySelector('.cookie-law').classList.add('is-visible');
+							}, 3000);
+						}
+					}
+				}
+			});
+		}
+
+		ses({
+			"action": "none"
+		});
+		buttonDecline.addEventListener('click', function () {
+			ses({
+				"action": "decline"
+			});
+		});
+		buttonAllow.addEventListener('click', function () {
+			ses({
+				"action": "agree"
+			});
+		});
+	</script>
+	</div>
+	<!-- PLUGIN FOR ALL PAGES -->
+
+	<script src="static/js/order-form.js">
+	</script>
+	<script src="static/js/all-pages.js">
+	</script> <!-- PLUGIN FOR ALL PAGES END -->
+	<!-- 地图 -->
+	<script type="text/javascript">
+		//创建和初始化地图函数：
+		function initMap() {
+			createMap(); //创建地图
+			setMapEvent(); //设置地图事件
+			addMapControl(); //向地图添加控件
+			addMarker(); //向地图中添加marker
+		}
+
+		//创建地图函数：
+		function createMap() {
+			var map = new BMap.Map("dituContent"); //在百度地图容器中创建一个地图
+			var point = new BMap.Point(121.465166, 31.273504); //定义一个中心点坐标
+			map.centerAndZoom(point, 17); //设定地图的中心点和坐标并将地图显示在地图容器中
+			window.map = map; //将map变量存储在全局
+		}
+
+		//地图事件设置函数：
+		function setMapEvent() {
+			map.enableDragging(); //启用地图拖拽事件，默认启用(可不写)
+			map.enableScrollWheelZoom(); //启用地图滚轮放大缩小
+			map.enableDoubleClickZoom(); //启用鼠标双击放大，默认启用(可不写)
+			map.enableKeyboard(); //启用键盘上下左右键移动地图
+		}
+
+		//地图控件添加函数：
+		function addMapControl() {
+			//向地图中添加缩放控件
+			var ctrl_nav = new BMap.NavigationControl({
+				anchor: BMAP_ANCHOR_TOP_LEFT,
+				type: BMAP_NAVIGATION_CONTROL_LARGE
+			});
+			map.addControl(ctrl_nav);
+			//向地图中添加缩略图控件
+			var ctrl_ove = new BMap.OverviewMapControl({
+				anchor: BMAP_ANCHOR_BOTTOM_RIGHT,
+				isOpen: 1
+			});
+			map.addControl(ctrl_ove);
+			//向地图中添加比例尺控件
+			var ctrl_sca = new BMap.ScaleControl({
+				anchor: BMAP_ANCHOR_BOTTOM_LEFT
+			});
+			map.addControl(ctrl_sca);
+		}
+
+		//标注点数组
+		var markerArr = [{
+			title: "Address",
+			content: "Room 405,Building 1, Gonghexin Road 1481, Jingan District, Shanghai, China",
+			point: "121.465067|31.273596",
+			isOpen: 0,
+			icon: {
+				w: 21,
+				h: 21,
+				l: 0,
+				t: 0,
+				x: 6,
+				lb: 5
+			}
+		}];
+		//创建marker
+		function addMarker() {
+			for (var i = 0; i < markerArr.length; i++) {
+				var json = markerArr[i];
+				var p0 = json.point.split("|")[0];
+				var p1 = json.point.split("|")[1];
+				var point = new BMap.Point(p0, p1);
+				var iconImg = createIcon(json.icon);
+				var marker = new BMap.Marker(point, {
+					icon: iconImg
+				});
+				var iw = createInfoWindow(i);
+				var label = new BMap.Label(json.title, {
+					"offset": new BMap.Size(json.icon.lb - json.icon.x + 10, -20)
+				});
+				marker.setLabel(label);
+				map.addOverlay(marker);
+				label.setStyle({
+					borderColor: "#808080",
+					color: "#333",
+					cursor: "pointer"
+				});
+
+				(function () {
+					var index = i;
+					var _iw = createInfoWindow(i);
+					var _marker = marker;
+					_marker.addEventListener("click", function () {
+						this.openInfoWindow(_iw);
+					});
+					_iw.addEventListener("open", function () {
+						_marker.getLabel().hide();
+					})
+					_iw.addEventListener("close", function () {
+						_marker.getLabel().show();
+					})
+					label.addEventListener("click", function () {
+						_marker.openInfoWindow(_iw);
+					})
+					if (!!json.isOpen) {
+						label.hide();
+						_marker.openInfoWindow(_iw);
+					}
+				})()
+			}
+		}
+		//创建InfoWindow
+		function createInfoWindow(i) {
+			var json = markerArr[i];
+			var iw = new BMap.InfoWindow("<b class='iw_poi_title' title='" + json.title + "'>" + json.title +
+				"</b><div class='iw_poi_content'>" + json.content + "</div>");
+			return iw;
+		}
+		//创建一个Icon
+		function createIcon(json) {
+			var icon = new BMap.Icon("http://api.map.baidu.com/img/markers.png", new BMap.Size(json.w, json.h), {
+				imageOffset: new BMap.Size(-json.l, -json.t),
+				infoWindowOffset: new BMap.Size(json.lb + 5, 1),
+				offset: new BMap.Size(json.x, json.h)
+			})
+			return icon;
+		}
+
+		initMap(); //创建和初始化地图
+	</script>
+</body>
+
+</html>
